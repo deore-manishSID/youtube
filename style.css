@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+     height: 100%;
+    width: 100%;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: bottom center;
+  
+
+}
+.round{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+      overflow: hidden;
+}
+#bg{
+    background-color: #2d2d2d;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-size: 68px;
+    font-weight: 600;
+    color: dodgerblue;
+}
