@@ -1,3 +1,7 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(MontereyFLF.woff2);
+}
 * {
     margin: 0;
     padding: 0;
@@ -47,4 +51,5 @@ h1{
     font-size: 68px;
     font-weight: 600;
     color: dodgerblue;
+    font-family: buttermilk;
 }
